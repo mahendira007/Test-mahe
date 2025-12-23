@@ -35,6 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls
+          needs
+          environment uat
           echo mahe test
           ls
     
